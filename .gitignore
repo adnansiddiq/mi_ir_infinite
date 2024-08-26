@@ -1,0 +1,27 @@
+# Various dirs & files
+poc/
+.idea/
+.DS_Store/
+*.json
+*.tar.gz
+*.tar.xz
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+*.log
+output/
