@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Maidilong_1815; Model: xm_1_1847; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Maidilong_1815; Model: xm_1_1854; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: down
@@ -15,7 +15,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 879 879 1787 879 89979
 #
-name: up
+name: power_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -45,13 +45,13 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 879 879 1787 879 879 90859
 #
-name: 2
+name: record_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 90859
 #
-name: vol+
+name: 0_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -63,7 +63,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 879 879 1787 90859
 #
-name: vol+
+name: 0_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -75,7 +75,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 879 879 879 879 1787 90859
 #
-name: cancel
+name: ok
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -93,19 +93,19 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 1787 879 879 1787 879 879 1787 1787 90859
 #
-name: pause_r
+name: 0_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 90859
 #
-name: 4_r
+name: pause
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 90859
 #
-name: 4
+name: pause_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -117,13 +117,13 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 879 879 1787 879 89979
 #
-name: vol-
+name: 1_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 1787 879 89979
 #
-name: up
+name: power_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -141,7 +141,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 1787 879 879 1787 1787 879 879 879 879 879 89979
 #
-name: ch+_r
+name: power
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -183,13 +183,13 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 1787 879 89979
 #
-name: vol-_r
+name: 1
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 1787 879 89979
 #
-name: vol+
+name: 0_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -255,7 +255,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 879 879 879 879 879 879 879 89979
 #
-name: cancel
+name: ok
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -267,7 +267,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 879 90859
 #
-name: 2_r
+name: record
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -279,7 +279,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 879 879 90859
 #
-name: vol-
+name: 1_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -309,7 +309,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 1787 879 879 1787 879 879 879 879 879 879 90859
 #
-name: ch+_r
+name: power
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -375,7 +375,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 1787 879 89979
 #
-name: vol-_r
+name: 1
 type: raw
 frequency: 36364
 duty_cycle: 0.330000

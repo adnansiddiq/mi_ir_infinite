@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Maidilong_1815; Model: xm_1_1860; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Maidilong_1815; Model: xm_1_1847; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: ch-_r
@@ -117,7 +117,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 879 879 1787 879 89979
 #
-name: left_r
+name: vol-_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -213,7 +213,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 1787 879 879 1787 1787 879 879 1787 90859
 #
-name: ok
+name: cancel
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -261,7 +261,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 1787 879 879 879 879 879 879 1787 90859
 #
-name: 0_r
+name: pause_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -279,7 +279,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 879 879 90859
 #
-name: left_r
+name: vol-_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -357,7 +357,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1787 879 879 879 879 879 879 879 879 879 879 879 879 1787 1787 879 879 879 879 90859
 #
-name: ok
+name: cancel
 type: raw
 frequency: 36364
 duty_cycle: 0.330000

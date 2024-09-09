@@ -189,7 +189,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 1732 879 879 879 879 879 879 879 879 879 879 879 879 1732 1732 879 879 879 879 1732 879 88604
 #
-name: pause_r
+name: ok_r
 type: raw
 frequency: 36364
 duty_cycle: 0.330000
@@ -213,7 +213,7 @@ frequency: 36364
 duty_cycle: 0.330000
 data: 879 879 879 879 1732 879 879 879 879 879 879 879 879 879 879 1732 879 879 879 879 1732 1732 879 88604
 #
-name: record
+name: ok
 type: raw
 frequency: 36364
 duty_cycle: 0.330000

@@ -15,13 +15,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1096 1147 1096 2269 2193 28891 1096 1147 1096 2269 2193 30946
 #
-name: 6
+name: 4
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 1071 1147 4386 29733 1071 1147 4386 30946
 #
-name: 0
+name: 7
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -33,7 +33,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1096 1147 3315 1147 1096 28891 1096 1147 3315 1147 1096 30946
 #
-name: 1
+name: 8
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -45,7 +45,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 1096 1147 1096 1147 1096 2269 1096 27769 1096 1147 1096 1147 1096 2269 1096 30946
 #
-name: enter
+name: 9
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

@@ -45,7 +45,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 1776 83600
 #
-name: down_r
+name: pip-_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -117,7 +117,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 888 82730
 #
-name: up_r
+name: pip+_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -129,7 +129,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 83600
 #
-name: down
+name: pip-
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -195,7 +195,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 83600
 #
-name: up
+name: pip+
 type: raw
 frequency: 36000
 duty_cycle: 0.330000

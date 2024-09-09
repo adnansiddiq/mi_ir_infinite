@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Huaxia_2234; Model: xm_1_2129; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Huaxia_2234; Model: xm_1_2246; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: ch-_r
@@ -15,7 +15,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 888 888 83600
 #
-name: sound_mode
+name: sound
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -39,7 +39,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 888 888 83600
 #
-name: down
+name: ch-
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -57,7 +57,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 888 888 83600
 #
-name: menu_r
+name: pic_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -117,7 +117,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 888 888 1776 83600
 #
-name: menu_r
+name: pic_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -309,7 +309,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 82730
 #
-name: hdtv
+name: display
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -327,13 +327,13 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 82730
 #
-name: menu
+name: pic
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 888 888 888 82730
 #
-name: up
+name: ch+
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -357,7 +357,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 83600
 #
-name: hdtv_r
+name: display_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -369,7 +369,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 83600
 #
-name: sound_mode_r
+name: sound_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -387,7 +387,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 888 888 82730
 #
-name: menu
+name: pic
 type: raw
 frequency: 36000
 duty_cycle: 0.330000

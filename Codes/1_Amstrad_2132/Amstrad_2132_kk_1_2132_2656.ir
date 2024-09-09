@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Amstrad_2132; Model: kk_1_2132_2888; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Amstrad_2132; Model: kk_1_2132_2656; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: down
@@ -129,7 +129,7 @@ frequency: 30000
 duty_cycle: 0.330000
 data: 54 269 54 54 54 54 54 54 54 54 54 54 54 172 54 172 54 172 54 172 54 54 54 54 54 269 54 130108 54 269 54 54 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 54 54 54 54 269 54 130108 54 269 54 54 54 172 54 172 54 172 54 172
 #
-name: texton
+name: REW
 type: raw
 frequency: 30000
 duty_cycle: 0.330000
@@ -219,7 +219,7 @@ frequency: 30000
 duty_cycle: 0.330000
 data: 54 269 54 54 54 54 54 54 54 54 54 54 54 172 54 172 54 172 54 172 54 172 54 172 54 269 54 130108 54 269 54 54 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 172 54 269 54 130108 54 269 54 54 54 172 54 172 54 172 54 172
 #
-name: down
+name: left
 type: raw
 frequency: 30000
 duty_cycle: 0.330000

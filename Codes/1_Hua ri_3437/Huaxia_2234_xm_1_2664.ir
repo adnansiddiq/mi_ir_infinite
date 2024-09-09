@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Huaxia_2234; Model: xm_1_2664; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Huaxia_2234; Model: xm_1_2669; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: ch-_r
@@ -15,7 +15,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 4920 140 7450 140 41980
 #
-name: sound
+name: display
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -33,7 +33,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 7450 140 41980
 #
-name: usb_dmp
+name: left
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -45,7 +45,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 4920 140 4920 140 41980
 #
-name: pic_r
+name: down_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -93,19 +93,19 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 4920 140 41980
 #
-name: sound
+name: display
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: usb_dmp_r
+name: left_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 41980
 #
-name: pic_r
+name: down_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -123,7 +123,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 4920 140 4920 140 41980
 #
-name: sound_mode
+name: ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -135,7 +135,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: usb_dmp_r
+name: left_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -147,7 +147,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: sound_mode_r
+name: ok_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -159,7 +159,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 7450 140 41980
 #
-name: up_r
+name: right_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -171,7 +171,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: up
+name: right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -213,13 +213,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 7450 140 41980
 #
-name: ok_r
+name: tv_sys_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 41980
 #
-name: tv_sys_r
+name: display_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -231,7 +231,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 7450 140 41980
 #
-name: usb_dmp
+name: left
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -243,7 +243,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 4920 140 4920 140 41980
 #
-name: ok
+name: tv_sys
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -255,7 +255,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 4920 140 41980
 #
-name: sound_mode
+name: ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -297,7 +297,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 4920 140 41980
 #
-name: right
+name: ch+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -327,19 +327,19 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 7450 140 41980
 #
-name: pic
+name: down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 41980
 #
-name: right
+name: ch+
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 41980
 #
-name: sound_mode_r
+name: ok_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -375,13 +375,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 4920 140 4920 140 41980
 #
-name: tv_sys_r
+name: display_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: pic
+name: down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
