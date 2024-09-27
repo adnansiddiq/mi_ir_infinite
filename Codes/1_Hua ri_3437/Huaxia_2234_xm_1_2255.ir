@@ -33,7 +33,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 888 888 888 888 83600
 #
-name: down
+name: ch-
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -87,13 +87,13 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 1776 888 888 83600
 #
-name: vga_pc
+name: tv_sys
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 83600
 #
-name: vga_pc_r
+name: menu_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -195,7 +195,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 82730
 #
-name: vga_pc_r
+name: menu_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -261,13 +261,13 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 1776 888 888 83600
 #
-name: left_r
+name: vol-_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 1776 888 82730
 #
-name: hdtv
+name: display
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -291,7 +291,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 83600
 #
-name: up
+name: ch+
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -315,7 +315,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 1776 83600
 #
-name: hdtv_r
+name: display_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -333,7 +333,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 1776 888 82730
 #
-name: vga_pc
+name: tv_sys
 type: raw
 frequency: 36000
 duty_cycle: 0.330000

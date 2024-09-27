@@ -9,7 +9,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: display_r
+name: tv_av_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -33,7 +33,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: ok_r
+name: display_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -63,7 +63,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 4920 140 41980
 #
-name: pip_r
+name: channel_digit_change_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -81,7 +81,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 4920 140 41980
 #
-name: right
+name: timer
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -159,7 +159,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: ok_r
+name: display_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -171,7 +171,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: ok
+name: display
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -219,7 +219,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 7450 140 41980
 #
-name: pip
+name: channel_digit_change
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -231,7 +231,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 41980
 #
-name: right
+name: timer
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -249,7 +249,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 4920 140 7450 140 41980
 #
-name: display
+name: tv_av
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -291,7 +291,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: display
+name: tv_av
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -315,7 +315,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: ok
+name: display
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -327,7 +327,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: right_r
+name: timer_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -345,7 +345,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 4920 140 41980
 #
-name: display_r
+name: tv_av_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -399,7 +399,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: right_r
+name: timer_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

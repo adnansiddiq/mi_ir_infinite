@@ -65,6 +65,20 @@ def get_device_values():
         return jsonify({"error": "Device Must be In Dictionary, Please Refer to 'ir_api/get_devices'"}), 400
 
 
+@app.route('/ir_api/test', methods=['GET'])
+def get_device_values_test():
+    try:
+        command = 'python3 -m src db_export -d 3 --brands Chuanghua_1875 -f flipper'
+        moduleResult = subprocess.run(command, shell=True, capture_output=True, text=True)
+        brandModel = create_models(device=3, brand='Chuanghua_1875')
+        listBrands = []
+        if len(brandModel) > 0:
+            listBrands.append({'brand': 'Chuanghua_1875', 'models': brandModel})
+        return jsonify(listBrands)
+    except:
+        return jsonify({"error": "Device Must be In Dictionary, Please Refer to 'ir_api/get_devices'"}), 400
+
+
 def create_models(device, brand):
     output_folder = os.path.join(os.getcwd(), 'Codes', f'{device}_{brand}')
     os.makedirs(output_folder, exist_ok=True)

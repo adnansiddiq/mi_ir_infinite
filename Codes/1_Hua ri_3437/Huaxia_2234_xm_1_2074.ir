@@ -1,9 +1,9 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Huaxia_2234; Model: xm_1_2074; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Huaxia_2234; Model: xm_1_2311; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
-name: left
+name: down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -51,7 +51,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 8500 4250 530 530 530 1590 530 530 530 530 530 530 530 530 530 530 530 530 530 4250 530 530 530 1590 530 1590 530 530 530 1590 530 530 530 530 530 530 530 24490
 #
-name: down
+name: up
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -93,7 +93,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 8500 4250 530 530 530 1590 530 530 530 530 530 530 530 530 530 530 530 530 530 4250 530 530 530 1590 530 530 530 1590 530 1590 530 530 530 530 530 530 530 24490
 #
-name: vga_pc
+name: back
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -129,7 +129,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 8500 4250 530 530 530 1590 530 530 530 530 530 530 530 530 530 530 530 530 530 4250 530 1590 530 530 530 530 530 530 530 1590 530 530 530 530 530 530 530 24490
 #
-name: right
+name: left
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -183,7 +183,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 8500 4250 530 530 530 1590 530 530 530 530 530 530 530 530 530 530 530 530 530 4250 530 1590 530 530 530 530 530 1590 530 530 530 530 530 530 530 530 530 24490
 #
-name: left
+name: right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

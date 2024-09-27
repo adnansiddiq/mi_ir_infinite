@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: Fan; Brand: Lianchuang_101; Model: mx_6_101_24; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: Fan; Brand: Lianchuang_101; Model: mx_6_101_6; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: shake_wind

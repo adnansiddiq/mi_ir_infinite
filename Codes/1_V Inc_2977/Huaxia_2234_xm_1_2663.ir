@@ -3,7 +3,7 @@ Version: 1
 # Device: TV; Brand: Huaxia_2234; Model: xm_1_2663; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
-name: back_r
+name: ch-_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -27,19 +27,19 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 4920 140 4920 140 4920 140 41980
 #
-name: back
+name: down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: display_r
+name: ok_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 4920 140 41980
 #
-name: back
+name: down
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -63,7 +63,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 4920 140 41980
 #
-name: channel_digit_change_r
+name: pip_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -81,7 +81,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 4920 140 41980
 #
-name: up
+name: right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -147,7 +147,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: back_r
+name: ch-_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -159,7 +159,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: display_r
+name: ok_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -171,7 +171,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: display
+name: ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -219,7 +219,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 7450 140 41980
 #
-name: channel_digit_change
+name: pip
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -231,7 +231,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 41980
 #
-name: up
+name: right
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -315,7 +315,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 7450 140 41980
 #
-name: display
+name: ok
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -327,7 +327,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: up_r
+name: right_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -399,7 +399,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: up_r
+name: right_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

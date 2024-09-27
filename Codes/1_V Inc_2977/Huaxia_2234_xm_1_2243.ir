@@ -15,7 +15,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 888 888 888 888 1776 888 888 888 888 83600
 #
-name: menu_r
+name: vga_pc_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -309,7 +309,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 888 888 1776 888 888 888 888 888 888 888 888 888 888 1776 1776 1776 1776 888 888 83600
 #
-name: vol-_r
+name: left_r
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
@@ -369,7 +369,7 @@ frequency: 36000
 duty_cycle: 0.330000
 data: 888 888 1776 888 888 888 888 888 888 888 888 888 888 888 888 888 888 1776 1776 888 888 888 888 83600
 #
-name: tv_sys
+name: vga_pc
 type: raw
 frequency: 36000
 duty_cycle: 0.330000
