@@ -3,7 +3,7 @@ Version: 1
 # Device: TV; Brand: Mivar_2896; Model: xm_1_2997; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
-name: power
+name: ch-
 type: raw
 frequency: 31746
 duty_cycle: 0.330000
@@ -81,7 +81,7 @@ frequency: 31746
 duty_cycle: 0.330000
 data: 504 2489 504 504 504 977 977 977 977 977 504 81585 504 2489 504 504 504 977 977 977 977 977 504 81585
 #
-name: mute
+name: ch+
 type: raw
 frequency: 31746
 duty_cycle: 0.330000

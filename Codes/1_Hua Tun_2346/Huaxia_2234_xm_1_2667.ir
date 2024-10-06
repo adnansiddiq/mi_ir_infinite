@@ -1,6 +1,6 @@
 Filetype: IR signals file
 Version: 1
-# Device: TV; Brand: Huaxia_2234; Model: xm_1_2669; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
+# Device: TV; Brand: Huaxia_2234; Model: xm_1_2664; from Mi Remote DB <https://github.com/ysard/mi_remote_database>
 # AGPL-3.0 license, Copyright (C) 2021-2023 Ysard
 #
 name: ch-_r
@@ -21,7 +21,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 4920 140 4920 140 4920 140 41980
 #
-name: down
+name: pic
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -75,7 +75,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 4920 140 4920 140 41980
 #
-name: right_r
+name: up_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -87,13 +87,13 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 4920 140 7450 140 4920 140 41980
 #
-name: display
+name: tv_av
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 4920 140 4920 140 7450 140 41980
 #
-name: tv_sys_r
+name: mute_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -123,19 +123,19 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 4920 140 4920 140 41980
 #
-name: down_r
+name: pic_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 41980
 #
-name: left_r
+name: usb_dmp_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 41980
 #
-name: pic_r
+name: up_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -195,7 +195,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 7450 140 4920 140 41980
 #
-name: display_r
+name: tv_av_r
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -261,7 +261,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 7450 140 4920 140 4920 140 7450 140 4920 140 41980
 #
-name: right
+name: up
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -333,7 +333,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 7450 140 7450 140 7450 140 7450 140 4920 140 4920 140 4920 140 4920 140 4920 140 4920 140 41980
 #
-name: tv_sys
+name: mute
 type: raw
 frequency: 38000
 duty_cycle: 0.330000
@@ -357,7 +357,7 @@ frequency: 38000
 duty_cycle: 0.330000
 data: 140 7450 140 4920 140 7450 140 7450 140 7450 140 4920 140 4920 140 7450 140 7450 140 4920 140 4920 140 41980
 #
-name: left
+name: usb_dmp
 type: raw
 frequency: 38000
 duty_cycle: 0.330000

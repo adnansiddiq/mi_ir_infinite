@@ -1,0 +1,120 @@
+from flask import Flask, jsonify, request
+import os
+import subprocess
+import glob
+import shutil
+from IR import read_file_with_ir_extension, delete_files_with_extension
+
+app = Flask(__name__)
+
+device_mapping = {
+    "1": "TV",
+    "10": "Projector",
+    "11": "Cable _ Satellite box",
+    "12": "Box",
+    "13": "Camera",
+    "2": "Set-top box",
+    "3": "AC",
+    "4": "DVD",
+    "6": "Fan",
+    "8": "A_V receiver"
+}
+
+
+def get_devices():
+    command = 'python3 -m src db_stats -ld'
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    devices_info = dict()
+    for dev_info in result.stdout.split('\n')[1:]:
+        if not dev_info:
+            continue
+        key, value = dev_info.split(':', 1)
+        devices_info[key] = value
+    return devices_info
+
+
+@app.route('/ir_api/get_devices', methods=['GET'])
+def api_my_endpoint():
+    result = get_devices()
+    return jsonify(result)
+
+
+@app.route('/ir_api/get_device_brands', methods=['GET'])
+def get_device_values():
+    try:
+        key = request.args.get("device")
+        if key is None:
+            return jsonify({"error": "Device parameter is missing"}), 400
+        command = f'python3 -m src db_stats -lb -d {key}'
+        result = subprocess.run(command, shell=True, capture_output=True, text=True)
+        listBrands = []
+        arrBrands = result.stdout.split('(')[1].rsplit(')')[0].replace("'", "").split(",")
+
+        for brand in arrBrands:
+            brandName = brand.strip("[").strip("]").strip(' ').strip("\\")
+            print(f"Brand Name: {brandName} |  Key: {key}")
+            command = f'python3 -m src db_export -d {key} --brands {brandName} -f flipper'
+            moduleResult = subprocess.run(command, shell=True, capture_output=True, text=True)
+            # moduleResult = subprocess.check_output(command, shell=True)
+            if 'patterns: 0' in str(moduleResult) or 'NotImplementedError' in str(moduleResult):
+                print("No module for: " + brandName)
+                continue
+            brandModel = create_models(device=key, brand=brandName)
+            if len(brandModel) > 0:
+                listBrands.append({'brand': brandName, 'models': brandModel})
+        return jsonify(listBrands)
+    except:
+        return jsonify({"error": "Device Must be In Dictionary, Please Refer to 'ir_api/get_devices'"}), 400
+
+
+def create_models(device, brand):
+    output_folder = os.path.join(os.getcwd(), 'Codes', f'{device}_{brand}')
+    os.makedirs(output_folder, exist_ok=True)
+    file_pattern = f"{os.curdir}/*.ir"
+    ir_files = glob.glob(file_pattern)
+
+    for file in ir_files:
+        src_path = os.path.join(os.curdir, file)
+        destination_path = os.path.join(output_folder, os.path.basename(file))
+        shutil.move(src_path, destination_path)
+
+    models = os.listdir(output_folder)
+    delete_files_with_extension(os.curdir, 'log')
+    return models
+
+
+@app.route('/ir_api/get_models', methods=['GET'])
+def get_models():
+    device = request.args.get("device")
+    brand = request.args.get("brand")
+    if device not in device_mapping:
+        return jsonify({"error": "Device Must be In Dictionary, Please Refer to 'ir_api/get_devices'"}), 400
+    command = f'python3 -m src db_export -d {device} --brands {brand} -f flipper'
+    result = subprocess.run(command, shell=True, capture_output=True, text=True)
+    if 'patterns: 0' in str(result):
+        return jsonify({"error": "No Models Found, Please Refer:'ir_api/get_devices'"}), 400
+    models = create_models(device=device, brand=brand)
+    return jsonify({'Models': models})
+
+
+def find_file(root_folder, file_name):
+    for folder_name, _, filenames in os.walk(root_folder):
+        if file_name in filenames:
+            return os.path.join(folder_name, file_name)
+    return None
+
+
+@app.route('/ir_api/get_ir_code', methods=['GET'])
+def get_ir_code():
+    model = request.args.get("model")
+    file = find_file(os.path.join(os.getcwd(), 'Codes'), model)
+    if not file:
+        return jsonify({"error": "Follow the procedure to extract code First, Please Refer to 'ir_api/get_devices'"}), 400
+    ir_code = read_file_with_ir_extension(file)
+    delete_files_with_extension(os.curdir, 'log')
+    return jsonify(ir_code)
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+

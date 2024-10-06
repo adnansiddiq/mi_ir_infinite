@@ -52,10 +52,12 @@ def get_device_values():
         for brand in arrBrands:
             brandName = brand.strip("[").strip("]").strip(' ').strip("\\")
             command = f'python3 -m src db_export -d {key} --brands {brandName} -f flipper'
-            moduleResult = subprocess.run(command, shell=True, capture_output=True, text=True)
+            #moduleResult = subprocess.run(command, shell=True, capture_output=True, text=True)
+            moduleResult = subprocess.call(["python3", " -m src db_export -d {key} --brands {brandName} -f flipper"])
             # moduleResult = subprocess.check_output(command, shell=True)
-            if 'patterns: 0' in str(moduleResult):
-                print("No module for: " + brandName)
+            # print(moduleResult)
+            if 'patterns: 0' in str(moduleResult) or 'NotImplementedError' in str(moduleResult) or 'can\'t open file' in str(moduleResult) :
+                # print("No module for: " + brandName)
                 continue
             brandModel = create_models(device=key, brand=brandName)
             if len(brandModel) > 0:
